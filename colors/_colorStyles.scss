@@ -1,0 +1,22 @@
+// Colors available: $red, $pink, $purple, $deep-purple, 
+// $indigo, $blue, $light-blue, $cyan, $teal, $green, 
+// $light-green, $lime, $yellow, $amber, $orange, 
+// $deep-orange, $brown, $grey, $blue-grey, $black, $white
+
+$primary-color: map-get($indigo, 500); // Use a level 500 color for your main colors in the scheme
+$primary-color-2: map-get($indigo, 100);
+$primary-color-3: map-get($indigo, 700);
+
+$accent-color: map-get($pink, 200);
+$accent-color-2: map-get($pink, A100);
+$accent-color-3: map-get($pink, A400);
+
+$text-dark: rgba($black, .87);
+$text-dark-2: rgba($black, .54);
+$text-dark-3: rgba($black, .26);
+$text-dark-4: rgba($black, .12);
+
+$text-light: rgba($white, 1);
+$text-light-2: rgba($white, .7);
+$text-light-3: rgba($white, .3);
+$text-light-4: rgba($white, .12);
