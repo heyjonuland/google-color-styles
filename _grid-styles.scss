@@ -1,0 +1,40 @@
+$grid-widths: (
+  25: 25%,
+  33: 33%,
+  50: 50%,
+  66: 66%,
+  75: 75%,
+  100: 100%,
+
+);
+
+.container {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.grid {
+  margin: 1%;
+  padding: 2%;
+}
+
+@each $grid, $width in $grid-widths {
+    .#{$screen}#{$grid} {
+      width: $width;
+    }
+  }
+}
+
+// Wearable Grid
+
+// Extra-Small Grid
+
+// Small Grid
+
+// Tablet Grid
+
+// Medium Grid
+
+// Large Grid
+
+// Extra-large Grid
